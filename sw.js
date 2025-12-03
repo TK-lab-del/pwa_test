@@ -1,4 +1,4 @@
-const VERSION = "v1.0.1";
+const VERSION = "v1.0.2";
 const CACHE_NAME = `period-tracker-${VERSION}`;
 
 const APP_STATIC_RESOURCES = [
@@ -39,8 +39,13 @@ self.addEventListener("activate", (event) => {
 });
 
 self.addEventListener("fetch", (event) => {
-  if (event.request.method == "navigate") {
-    event.respondWith(cache.match("/"));
+  if (event.request.method === "navigate") {
+    event.respondWith(
+      (async () => {
+        const cache = await caches.open(CACHE_NAME);
+        return cache.match("/") || cache.match("/index.html");
+      })()
+    );
     return;
   }
 
