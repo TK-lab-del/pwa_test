@@ -8,7 +8,7 @@ const APP_STATIC_RESOURCES = [
   `${BASE_PATH}/style.css`,
   `${BASE_PATH}/app.js`,
   `${BASE_PATH}/cycletracker.json`,
-  `${BASE_PATH}/icons/favicon.ico`,
+  `${BASE_PATH}/favicon.ico`,
   `${BASE_PATH}/icons/circle.svg`,
   `${BASE_PATH}/icons/tire.svg`,
   `${BASE_PATH}/icons/wheel.svg`,
