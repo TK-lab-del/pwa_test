@@ -12,19 +12,19 @@
       "sizes": "48x48"
     },
     {
-      "src": "icons/circle.svg",
-      "sizes": "72x72 96x96",
-      "purpose": "maskable"
-    },
-    {
-      "src": "icons/web-app-manifest-icon-192x192.png",
+      "src": "icons/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "purpose": "any"
     },
     {
-      "src": "icons/web-app-manifest-icon-512x512.png",
+      "src": "icons/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "purpose": "any"
+    },
+    {
+      "src": "icons/circle.svg",
+      "sizes": "72x72 96x96",
+      "purpose": "maskable"
     },
     {
       "src": "icons/tire.svg",
