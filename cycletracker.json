@@ -17,6 +17,11 @@
       "purpose": "maskable"
     },
     {
+      "src": "icons/web-app-manifest-icon-192.png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
       "src": "icons/tire.svg",
       "sizes": "128x128 256x256"
     },
