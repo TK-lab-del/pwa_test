@@ -1,4 +1,4 @@
-const VERSION = "v1";
+const VERSION = "v1.0.1";
 const CACHE_NAME = `period-tracker-${VERSION}`;
 
 const APP_STATIC_RESOURCES = [
@@ -8,6 +8,8 @@ const APP_STATIC_RESOURCES = [
   "/app.js",
   "/cycletracker.json",
   "/icons/wheel.svg",
+  "/icons/web-app-manifest-192x192.png",
+  "/icons/web-app-manifest-512x512.png",
 ];
 
 self.addEventListener("install", (event) => {
